@@ -8,9 +8,10 @@ function Reviews(){
   return knex('reviews')
 }
 /* GET users listing. */
-
-router.get('/reviews/new', function(req,res,next){
-res.render('reviews/new')
+  console.log('$$$$$$$$$$$');
+router.get('/restaurants/#{id}/reviews', function(req,res,next){
+  console.log('$$$$$$$$$$$2');
+res.redirect('/reviews/new')
 
 })
 
