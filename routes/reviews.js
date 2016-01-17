@@ -9,7 +9,7 @@ function Reviews(){
 }
 /* GET users listing. */
   console.log('$$$$$$$$$$$');
-router.get('/restaurants/#{id}/reviews', function(req,res,next){
+router.get('/restaurants/#{id}/reviews/new', function(req,res,next){
   console.log('$$$$$$$$$$$2');
 res.redirect('/reviews/new')
 
