@@ -20,6 +20,5 @@ block content
   form(action="/restaurants/#{id}/edit" method="GET")
     button(type="submit") Edit
   
-  form(action="/restaurants/#{id}/reviews/new" method="GET")
-    button(type="submit") Add a Review
+  a(href="/restaurants/#{id}/reviews") Add Review
   
